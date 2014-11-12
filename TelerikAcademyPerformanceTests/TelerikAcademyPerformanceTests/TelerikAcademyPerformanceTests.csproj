@@ -50,94 +50,94 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Admin\EvaluationModules\AddStudentsForTestExam.webtest">
+    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentsForTestExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\TestExams.webtest">
+    <None Include="Admin\EvaluationModules\TestExams\TestExams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\PracticalExams.webtest">
+    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\PracticalExamFiles.webtest">
+    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords.webtest">
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecords.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluation.webtest">
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluation.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions.webtest">
+    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\HomeworkStatistics.webtest">
+    <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\PracticalExamEvaluations.webtest">
+    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\Helpers.webtest">
+    <None Include="Admin\EvaluationModules\Helpers\Helpers.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\Bonuses.webtest">
+    <None Include="Admin\EvaluationModules\Bonuses\Bonuses.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\ExportResults.webtest">
+    <None Include="Admin\EvaluationModules\ExportResults\ExportResults.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam.webtest">
+    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberSuggestions.webtest">
+    <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\Teamworks.webtest">
+    <None Include="Admin\TeamworkModules\Teamworks\Teamworks.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamNameSuggestions.webtest">
+    <None Include="Admin\TeamworkModules\TeamNameSuggestions\TeamNameSuggestions.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberEvaluations.webtest">
+    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\ImportTeams.webtest">
+    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations.webtest">
+    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\ImportTeamNames.webtest">
+    <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Users.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\TeamworkSignup.webtest">
+    <None Include="Front\TeamworkSignup\TeamworkSignup.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\HomeworkEvaluation.webtest">
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\HomeworkAndTeamworkUpload.webtest">
+    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\TeammateGrading.webtest">
+    <None Include="Front\TeammateGrading\TeammateGrading.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\ExamResults.webtest">
+    <None Include="Front\ExamResults\ExamResults.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\HomeworkCommentsAndGrading.webtest">
+    <None Include="Front\HomeworkCommentsAndGrading\HomeworkCommentsAndGrading.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\ExamUpload.webtest">
+    <None Include="Front\ExamUpload\ExamUpload.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\ExamSignup.webtest">
+    <None Include="Front\ExamSignup\ExamSignup.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Front\ExamEvaluation.webtest">
+    <None Include="Front\ExamEvaluation\ExamEvaluation.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
