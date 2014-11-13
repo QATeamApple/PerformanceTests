@@ -111,15 +111,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.loadtest" />
-    <None Include="Front\HomeworkCommentsAndGrading\HomeworkGrading.loadtest" />
-    <None Include="Front\HomeworkCommentsAndGrading\HomeworkGrading.webtest" />
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.loadtest" />
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.webtest" />
     <None Include="Users.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Front\TeamworkSignup\TeamworkSignup.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.webtest">
