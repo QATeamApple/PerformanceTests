@@ -122,6 +122,9 @@
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Front\ExamUpload\ExamUpload.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.loadtest" />
     <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.loadtest" />
     <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.webtest" />
