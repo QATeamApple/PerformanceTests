@@ -134,6 +134,7 @@
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+<<<<<<< HEAD
     <None Include="Front\ExamResults\ExamResults.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -147,6 +148,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Front\ExamResults\ExamResults300Users.loadtest">
+=======
+    <None Include="Front\ExamUpload\ExamUpload.loadtest">
+>>>>>>> origin/master
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.loadtest" />
