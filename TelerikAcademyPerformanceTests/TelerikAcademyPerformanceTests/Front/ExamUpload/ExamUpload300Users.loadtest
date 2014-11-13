@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LoadTest Name="ExamUpload300Users" Description="" Owner="" storage="d:\!joro\vanina github repositories\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\examupload\examupload300users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="b86ee845-0655-4eac-90ec-bbd3343d3087" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="ExamUploadScenario300Users" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="ExamUploadScenario300Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
       <LoadProfile Pattern="Step" InitialUsers="75" MaxUsers="300" StepUsers="75" StepDuration="20" StepRampTime="0" />
       <TestMix>
