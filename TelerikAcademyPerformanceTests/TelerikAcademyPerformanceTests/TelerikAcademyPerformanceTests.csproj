@@ -70,6 +70,7 @@
     <None Include="Admin\EvaluationModules\Bonuses\Bonuses150Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Admin\EvaluationModules\ExportResults\ExportResults.webtest" />
     <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -107,15 +108,10 @@
     <None Include="Admin\EvaluationModules\Bonuses\Bonuses.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\ExportResults\ExportResults.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest" />
     <None Include="Admin\TeamworkModules\Teamworks\Teamworks.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -134,7 +130,6 @@
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-<<<<<<< HEAD
     <None Include="Front\ExamResults\ExamResults.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -148,9 +143,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Front\ExamResults\ExamResults300Users.loadtest">
-=======
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Front\ExamUpload\ExamUpload.loadtest">
->>>>>>> origin/master
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.loadtest" />
