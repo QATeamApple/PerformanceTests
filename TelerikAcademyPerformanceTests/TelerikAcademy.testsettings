@@ -2,7 +2,7 @@
 <TestSettings name="Local" id="c3c0962f-25f3-414e-88da-9c1d9f17c50d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Description>These are default test settings for a local test run.</Description>
   <Deployment>
-    <DeploymentItem filename="TelerikAcademyPerformanceTests\" />
+    <DeploymentItem filename="TelerikAcademyPerformanceTests\Resources\" />
   </Deployment>
   <Execution>
     <TestTypeSpecific>
