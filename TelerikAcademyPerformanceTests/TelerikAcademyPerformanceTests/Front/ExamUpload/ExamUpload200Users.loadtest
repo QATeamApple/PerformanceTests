@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="Bonuses20Users" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\admin\evaluationmodules\bonuses\bonuses20users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="0cbc26a4-8a0e-4fec-812d-61e60b5fbc2d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="ExamUpload200Users" Description="" Owner="" storage="d:\!joro\vanina github repositories\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\examupload\examupload200users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="75647dc7-c461-4b79-b8d7-93b179b6fd31" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="BonusesScenario20Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="ExamUploadScenario200Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="5" MaxUsers="20" StepUsers="5" StepDuration="20" StepRampTime="0" />
+      <LoadProfile Pattern="Step" InitialUsers="50" MaxUsers="200" StepUsers="50" StepDuration="20" StepRampTime="0" />
       <TestMix>
-        <TestProfile Name="Bonuses" Path="bonuses.webtest" Id="d23336f9-272a-465f-b346-1dc326fe0ef5" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="ExamUpload" Path="examupload.webtest" Id="a6fdae24-3337-40f3-bc56-b4d2bb0aca66" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
       <BrowserMix>
-        <BrowserProfile Percentage="34">
-          <Browser Name="Internet Explorer 10.0" MaxConnections="6">
+        <BrowserProfile Percentage="10">
+          <Browser Name="Internet Explorer 11.0" MaxConnections="6">
             <Headers>
-              <Header Name="User-Agent" Value="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)" />
+              <Header Name="User-Agent" Value="Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko" />
               <Header Name="Accept" Value="*/*" />
               <Header Name="Accept-Language" Value="{{$IEAcceptLanguage}}" />
               <Header Name="Accept-Encoding" Value="GZIP" />
             </Headers>
           </Browser>
         </BrowserProfile>
-        <BrowserProfile Percentage="33">
+        <BrowserProfile Percentage="40">
           <Browser Name="Chrome 2" MaxConnections="6">
             <Headers>
               <Header Name="User-Agent" Value="Mozilla/5.0 (Windows; U; Windows NT 5.1;) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1" />
@@ -29,7 +29,18 @@
             </Headers>
           </Browser>
         </BrowserProfile>
-        <BrowserProfile Percentage="33">
+        <BrowserProfile Percentage="20">
+          <Browser Name="Safari 3" MaxConnections="4">
+            <Headers>
+              <Header Name="User-Agent" Value="Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/525.28 (KHTML, like Gecko) Version/3.2.2 Safari/525.28.1" />
+              <Header Name="Accept" Value="*/*" />
+              <Header Name="Accept-Language" Value="{{$IEAcceptLanguage}}" />
+              <Header Name="Accept-Encoding" Value="GZIP,deflate" />
+              <Header Name="Accept-Charset" Value="ISO-8859-1,utf-8;q=0.7,*;q=0.7" />
+            </Headers>
+          </Browser>
+        </BrowserProfile>
+        <BrowserProfile Percentage="30">
           <Browser Name="Firefox 3.0" MaxConnections="6">
             <Headers>
               <Header Name="User-Agent" Value="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1) Gecko/20061010 Firefox/3.0" />
@@ -443,7 +454,7 @@
     </CounterSet>
   </CounterSets>
   <RunConfigurations>
-    <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="300" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="5" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0">
+    <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="300" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="15" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0">
       <CounterSetMappings>
         <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
           <CounterSetReferences>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="LoadTest1" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\examresults\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="aee64875-41c1-40fd-bf99-3d6bc6aa3f32" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="ExamResults200Users" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\examresults\examresults200users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="aee64875-41c1-40fd-bf99-3d6bc6aa3f32" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="ExamResultsScenario200Users" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="ExamResultsScenario200Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
       <LoadProfile Pattern="Step" InitialUsers="50" MaxUsers="200" StepUsers="50" StepDuration="20" StepRampTime="0" />
       <TestMix>
