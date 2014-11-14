@@ -242,12 +242,61 @@
     <None Include="Front\ExamResults\ExamResults300Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Front\ExamUpload\ExamUpload.loadtest">
+    <None Include="Front\ExamUpload\ExamUpload120Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload.loadtest" />
-    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.loadtest" />
+    <None Include="Front\ExamUpload\ExamUpload200Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\ExamUpload\ExamUpload300Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\ExamUpload\ExamUpload40Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload200Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload300Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload120Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkAndTeamworkUpload\HomeworkAndTeamworkUpload40Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Front\HomeworkEvaluation\HomeworkEvaluation.webtest" />
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation200Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation300Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation120Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\HomeworkEvaluation\HomeworkEvaluation40Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeammateGrading\TeammateGrading200Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeammateGrading\TeammateGrading120Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeammateGrading\TeammateGrading300Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeammateGrading\TeammateGrading40Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeamworkSignup\TeamworkSignup200Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Front\TeamworkSignup\TeamworkSignup300Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Front\TeamworkSignup\TeamworkSignup120Users.loadtest" />
     <None Include="Front\TeamworkSignup\TeamworkSignup40Users.loadtest" />
     <None Include="Users.csv">
