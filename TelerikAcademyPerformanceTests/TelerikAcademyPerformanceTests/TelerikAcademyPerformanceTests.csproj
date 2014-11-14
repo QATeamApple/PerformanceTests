@@ -52,9 +52,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.08a4140f-13ac-486a-b63a-f08b9d7cb5d9.rec.webtestresult" />
-    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam100Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam150Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam20Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam60Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam100Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam150Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam20Users.loadtest" />
+    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam60Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentsForTestExam.c9126c89-06a8-4894-b5a8-ad5097bf3ba5.rec.webtestresult" />
-    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentsForTestExam.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentsForTestExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -111,9 +117,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles.d7bef263-ff3b-4ee4-86d6-1896b47dc2bf.rec.webtestresult" />
-    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles.loadtest" />
+    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles100Users.loadtest" />
+    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles150Users.loadtest" />
+    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles20Users.loadtest" />
+    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles60Users.loadtest" />
     <None Include="Admin\EvaluationModules\TestExams\TestExams.16b325be-88d6-4f59-8782-a835dce4c701.rec.webtestresult" />
-    <None Include="Admin\EvaluationModules\TestExams\TestExams.loadtest" />
     <None Include="Admin\EvaluationModules\TestExams\TestExams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -147,6 +155,10 @@
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Admin\EvaluationModules\TestExams\TestExams100Users.loadtest" />
+    <None Include="Admin\EvaluationModules\TestExams\TestExams150Users.loadtest" />
+    <None Include="Admin\EvaluationModules\TestExams\TestExams20Users.loadtest" />
+    <None Include="Admin\EvaluationModules\TestExams\TestExams60Users.loadtest" />
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest" />
     <None Include="Admin\TeamworkModules\Teamworks\Teamworks.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
