@@ -121,6 +121,18 @@
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles150Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles20Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles60Users.loadtest" />
+    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Admin\EvaluationModules\TestExams\TestExams.16b325be-88d6-4f59-8782-a835dce4c701.rec.webtestresult" />
     <None Include="Admin\EvaluationModules\TestExams\TestExams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
