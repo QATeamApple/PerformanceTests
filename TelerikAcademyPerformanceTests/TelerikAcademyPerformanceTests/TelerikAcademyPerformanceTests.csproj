@@ -192,6 +192,30 @@
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest" />
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions100Users.loadtest" />
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions150Users.loadtest" />
