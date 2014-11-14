@@ -204,7 +204,7 @@
     <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\LoadTest1.loadtest">
+    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations150Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations100Users.loadtest">
