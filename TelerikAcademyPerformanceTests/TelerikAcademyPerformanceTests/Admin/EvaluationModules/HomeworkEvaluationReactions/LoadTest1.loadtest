@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="Bonuses20Users" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\admin\evaluationmodules\bonuses\bonuses20users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="0cbc26a4-8a0e-4fec-812d-61e60b5fbc2d" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="LoadTest1" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\admin\evaluationmodules\homeworkevaluationreactions\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="a97d6bba-afee-4001-b45f-141343ec611c" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="BonusesScenario20Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="HomeworkEvaluationReactionsScenario150Users" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="5" MaxUsers="20" StepUsers="5" StepDuration="20" StepRampTime="0" />
+      <LoadProfile Pattern="Step" InitialUsers="30" MaxUsers="150" StepUsers="40" StepDuration="20" StepRampTime="0" />
       <TestMix>
-        <TestProfile Name="Bonuses" Path="bonuses.webtest" Id="d23336f9-272a-465f-b346-1dc326fe0ef5" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="HomeworkEvaluationReactions" Path="homeworkevaluationreactions.webtest" Id="e58803fe-33ba-488a-87a6-b589fc91a468" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
       <BrowserMix>
         <BrowserProfile Percentage="34">

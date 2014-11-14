@@ -71,6 +71,42 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\ExportResults\ExportResults.webtest" />
+    <None Include="Admin\EvaluationModules\Helpers\Helpers20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\Helpers\Helpers60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\Helpers\Helpers100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\Helpers\Helpers150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\LoadTest1.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -90,7 +126,7 @@
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecords.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluation.webtest">
+    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions.webtest">
