@@ -127,6 +127,18 @@
     <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles100Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles150Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles20Users.loadtest" />
