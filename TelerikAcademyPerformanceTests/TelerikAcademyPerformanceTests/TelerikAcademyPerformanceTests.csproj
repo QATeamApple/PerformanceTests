@@ -51,12 +51,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam100Users.loadtest" />
-    <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam150Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam20Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam60Users.loadtest" />
-    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam100Users.loadtest" />
-    <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam150Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam20Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentForTestExam60Users.loadtest" />
     <None Include="Admin\EvaluationModules\AddStudentsForTestExam\AddStudentsForTestExam.webtest">
@@ -68,15 +64,7 @@
     <None Include="Admin\EvaluationModules\Bonuses\Bonuses60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\Bonuses\Bonuses100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\Bonuses\Bonuses150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\ExportResults\ExportResults.webtest" />
-    <None Include="Admin\EvaluationModules\ExportResults\ExportResults100Users.loadtest" />
-    <None Include="Admin\EvaluationModules\ExportResults\ExportResults150Users.loadtest" />
     <None Include="Admin\EvaluationModules\ExportResults\ExportResults20Users.loadtest" />
     <None Include="Admin\EvaluationModules\ExportResults\ExportResults60Users.loadtest" />
     <None Include="Admin\EvaluationModules\Helpers\Helpers20Users.loadtest">
@@ -85,22 +73,10 @@
     <None Include="Admin\EvaluationModules\Helpers\Helpers60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\Helpers\Helpers100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\Helpers\Helpers150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions60Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluationReactions\HomeworkEvaluationReactions150Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin20Users.loadtest">
@@ -109,28 +85,10 @@
     <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkStatistics\HomeworkStatistics20Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations100Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations60Users.loadtest">
@@ -139,38 +97,18 @@
     <None Include="Admin\EvaluationModules\PracticalExamEvaluations\PracticalExamEvaluations20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles100Users.loadtest" />
-    <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles150Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles20Users.loadtest" />
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles60Users.loadtest" />
-    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport20Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport100Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport20Users.loadtest">
@@ -215,26 +153,12 @@
     <None Include="Admin\EvaluationModules\AddStudentsForPracticalExam\AddStudentsForPracticalExam.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\TestExams\TestExams100Users.loadtest" />
-    <None Include="Admin\EvaluationModules\TestExams\TestExams150Users.loadtest" />
     <None Include="Admin\EvaluationModules\TestExams\TestExams20Users.loadtest" />
     <None Include="Admin\EvaluationModules\TestExams\TestExams60Users.loadtest" />
-    <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames20Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams100Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams60Users.loadtest">
@@ -243,22 +167,10 @@
     <None Include="Admin\TeamworkModules\ImportTeams\ImportTeams20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\TeamworkModules\TeamMemberAllEvaluations\TeamMemberAllEvaluations60Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations100Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\TeamworkModules\TeamMemberEvaluations\TeamMemberEvaluations60Users.loadtest">
@@ -268,16 +180,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions.webtest" />
-    <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions100Users.loadtest" />
-    <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions150Users.loadtest" />
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions20Users.loadtest" />
     <None Include="Admin\TeamworkModules\TeamMemberSuggestions\TeamMemberSuggestions60Users.loadtest" />
-    <None Include="Admin\TeamworkModules\TeamNameSuggestions\TeamNameSuggestions100Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\TeamworkModules\TeamNameSuggestions\TeamNameSuggestions150Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\TeamworkModules\TeamNameSuggestions\TeamNameSuggestions20Users.loadtest" />
     <None Include="Admin\TeamworkModules\TeamNameSuggestions\TeamNameSuggestions60Users.loadtest" />
     <None Include="Admin\TeamworkModules\Teamworks\Teamworks.webtest">
@@ -298,8 +202,6 @@
     <None Include="Admin\TeamworkModules\ImportTeamNames\ImportTeamNames.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\TeamworkModules\Teamworks\Teamworks100Users.loadtest" />
-    <None Include="Admin\TeamworkModules\Teamworks\Teamworks150Users.loadtest" />
     <None Include="Admin\TeamworkModules\Teamworks\Teamworks20Users.loadtest" />
     <None Include="Admin\TeamworkModules\Teamworks\Teamworks60Users.loadtest" />
     <None Include="Front\ExamResults\ExamResults.webtest">
