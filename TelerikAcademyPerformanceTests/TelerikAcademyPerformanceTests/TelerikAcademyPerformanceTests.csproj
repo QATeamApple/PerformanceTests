@@ -155,7 +155,19 @@
     <None Include="Admin\EvaluationModules\PracticalExams\PracticalExams20Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\LoadTest1.loadtest">
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport150Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport100Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport60Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport20Users.loadtest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport150Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport100Users.loadtest">
@@ -167,6 +179,9 @@
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport.webtest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Admin\EvaluationModules\TestExams\TestExams.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -176,7 +191,7 @@
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecords.webtest">
+    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin.webtest">
