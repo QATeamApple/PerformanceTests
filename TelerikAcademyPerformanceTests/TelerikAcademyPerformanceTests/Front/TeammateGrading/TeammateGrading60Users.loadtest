@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="HomeworkAndTeamworkUpload40Users" Description="" Owner="" storage="c:\documents\github\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\homeworkandteamworkupload\homeworkandteamworkupload40users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="92e4d2a5-3cf5-4cfe-b253-bd666dc4a1bf" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="TeammateGrading60Users" Description="" Owner="" storage="d:\telerik\github\repos\qateamapple\performancetests\telerikacademyperformancetests\telerikacademyperformancetests\front\teammategrading\teammategrading60users.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" Id="7fcd653a-b1de-4a3d-8267-86705839bdc1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
-    <Scenario Name="HomeworkAndTeamworkUploadScenario" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
+    <Scenario Name="TeammateGradingScenario60Users" DelayBetweenIterations="0" PercentNewUsers="100" IPSwitching="false" TestMixType="PercentageOfTestsStarted" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
-      <LoadProfile Pattern="Step" InitialUsers="30" MaxUsers="120" StepUsers="30" StepDuration="20" StepRampTime="0" />
+      <LoadProfile Pattern="Step" InitialUsers="15" MaxUsers="60" StepUsers="15" StepDuration="20" StepRampTime="0" />
       <TestMix>
-        <TestProfile Name="HomeworkAndTeamworkUpload" Path="homeworkandteamworkupload.webtest" Id="e495333d-815b-49a5-b54d-20610e3f5af4" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestProfile Name="TeammateGrading" Path="teammategrading.webtest" Id="3de32d17-4d56-4752-9383-459d42c3d6aa" Percentage="100" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
       </TestMix>
       <BrowserMix>
         <BrowserProfile Percentage="34">
