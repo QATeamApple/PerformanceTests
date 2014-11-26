@@ -111,12 +111,6 @@
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport60Users.loadtest">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport20Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport60Users.loadtest">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsImport.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -127,9 +121,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\PracticalExamFiles\PracticalExamFiles.webtest">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Admin\EvaluationModules\StudentsRecords\StudentsRecordsExport.webtest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Admin\EvaluationModules\HomeworkEvaluation\HomeworkEvaluationAdmin.webtest">
